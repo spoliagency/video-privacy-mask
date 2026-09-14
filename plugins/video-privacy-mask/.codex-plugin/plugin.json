@@ -1,0 +1,20 @@
+{
+  "name": "video-privacy-mask",
+  "version": "1.0.0",
+  "description": "Protect sensitive information in screen-recorded videos with precise, non-destructive masks.",
+  "author": {
+    "name": "Video Editing Skills Contributors"
+  },
+  "license": "MIT",
+  "keywords": ["video", "privacy", "blur", "redaction", "ffmpeg"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Video Privacy Mask",
+    "shortDescription": "Protect sensitive on-screen details with precise masks.",
+    "longDescription": "A focused workflow for detecting and masking sensitive information in screen-recorded videos.",
+    "developerName": "Video Editing Skills Contributors",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Protect the sensitive information in this screen recording."
+  }
+}

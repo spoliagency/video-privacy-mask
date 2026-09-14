@@ -1,0 +1,21 @@
+{
+  "name": "video-privacy-mask",
+  "owner": {
+    "name": "Video Editing Skills Contributors"
+  },
+  "description": "Free video-privacy masking skill for Codex and Claude Code.",
+  "plugins": [
+    {
+      "name": "video-privacy-mask",
+      "source": "./plugins/video-privacy-mask",
+      "description": "Protect sensitive on-screen information with precise video masks.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Video Editing Skills Contributors"
+      },
+      "license": "MIT",
+      "category": "Productivity",
+      "tags": ["video", "privacy", "blur"]
+    }
+  ]
+}
