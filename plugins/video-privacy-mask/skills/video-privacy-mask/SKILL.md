@@ -42,6 +42,12 @@ When a user invokes this skill, begin with a short, approachable preflight:
    - use a stronger mask for passwords, tokens, API keys, addresses, personal contacts, or credentials.
 6. Render to a new file, retaining the original resolution, duration, and audio unless the user asks to change them.
 
+## Preview and approval
+
+Before creating the final delivery file, create a temporary preview or a compact set of representative frames. For masking work, include every distinct protected scene and the frames immediately before and after each mask boundary, including scrolling or layout changes.
+
+Show the preview to the user and ask whether they approve the masking before final delivery. Apply requested adjustments, make another preview when the change affects privacy or appearance, and create the final file only after approval. An explicit request to skip preview counts as approval. Keep previews out of the chosen delivery folder unless the user asks to retain them.
+
 ## Quality checks
 
 - Verify the final duration and video/audio streams.

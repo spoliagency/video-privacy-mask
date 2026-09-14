@@ -1,5 +1,22 @@
 # Video Privacy Mask
 
+## Português
+
+Skill gratuita para ocultar dados sensíveis em gravações de tela sem esconder o contexto útil. Ela confirma o vídeo original, pergunta onde salvar a cópia, verifica a ferramenta local de vídeo e cria um preview dos pontos mascarados para sua aprovação antes da entrega final.
+
+### Instalação no Claude Code
+
+```text
+/plugin marketplace add spoliagency/video-privacy-mask
+/plugin install video-privacy-mask@video-privacy-mask
+```
+
+Depois, use `/video-privacy-mask:video-privacy-mask` e explique o que deseja ocultar. A skill orienta o restante da conversa.
+
+---
+
+## English
+
 Free, reusable instructions for protecting sensitive information in screen-recorded videos without hiding useful context.
 
 It helps an agent create a separate, publishable copy, limit masks to the precise scene and on-screen region that need protection, and check the frames around every cut or layout change.
@@ -10,6 +27,7 @@ It helps an agent create a separate, publishable copy, limit masks to the precis
 - Light blur when it is sufficient, stronger masking only when necessary.
 - Scene boundaries and scrolling dashboards, so a mask does not appear too early, linger too long, or drift away from the protected item.
 - Final video, audio, duration, and frame-based privacy checks.
+- A temporary preview of masked scenes for approval before the final delivery.
 
 ## Requirements
 
