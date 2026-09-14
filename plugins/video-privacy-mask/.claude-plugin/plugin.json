@@ -1,7 +1,7 @@
 {
   "name": "video-privacy-mask",
   "description": "Protect sensitive information in screen-recorded videos with precise, non-destructive masks.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": {
     "name": "Video Editing Skills Contributors"
   },
