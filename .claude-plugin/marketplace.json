@@ -9,7 +9,7 @@
       "name": "video-privacy-mask",
       "source": "./plugins/video-privacy-mask",
       "description": "Protect sensitive on-screen information with precise video masks.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {
         "name": "Video Editing Skills Contributors"
       },

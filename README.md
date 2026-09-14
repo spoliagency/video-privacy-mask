@@ -24,7 +24,7 @@ The student does not need to understand FFmpeg before asking for help. They can 
 I need to hide the domains and email identifiers in this screen recording. Keep the workflow visible and use a light blur.
 ```
 
-The skill will explain the next step, check whether a local video renderer is ready, and proceed if it is. If it is not ready, it explains why a renderer is needed and offers installation guidance for the student's operating system; it never installs software without their approval. Once the renderer is available, the conversation continues from the same request.
+The skill will explain the next step, check whether a local video renderer is ready, and proceed if it is. If it is not ready, it identifies the student's operating system and asks whether it may download and install FFmpeg or a compatible renderer from an official source. After approval, it verifies the tool and continues from the same request.
 
 ## Install in Claude Code
 

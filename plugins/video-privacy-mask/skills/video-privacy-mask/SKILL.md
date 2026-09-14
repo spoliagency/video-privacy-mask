@@ -18,8 +18,9 @@ When a user invokes this skill, begin with a short, approachable preflight:
 1. Explain that you will make a separate, publishable copy and ask them to identify the source video and the items to protect.
 2. Check whether FFmpeg or another compatible local video renderer is available, without changing their system.
 3. If a renderer is ready, say so briefly and continue with the edit.
-4. If no renderer is available, explain in plain language that this skill plans and verifies the edit, while the local renderer produces the new video file. Offer platform-appropriate installation guidance or a compatible existing tool; do not install software without the user's explicit approval.
-5. Keep the same conversation open after the tool is ready. The user should not have to repeat the request or relocate their media.
+4. If no renderer is available, explain in plain language that this skill plans and verifies the edit, while the local renderer produces the new video file. Identify the operating system and ask directly whether you may download and install FFmpeg or a compatible local renderer for that computer.
+5. Only after the user agrees, select a reputable compatible option, obtain it from its official source, complete the installation when the environment permits, verify that it works, and resume the original request. Explain if administrator approval or a manual action is required.
+6. Keep the same conversation open after the tool is ready. The user should not have to repeat the request or relocate their media.
 
 ## Workflow
 
